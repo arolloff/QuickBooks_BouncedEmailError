@@ -1,0 +1,194 @@
+{
+	"QueryResponse": {
+		"Invoice": [
+			{
+				"AllowIPNPayment": false,
+				"AllowOnlinePayment": false,
+				"AllowOnlineCreditCardPayment": false,
+				"AllowOnlineACHPayment": false,
+				"domain": "QBO",
+				"sparse": false,
+				"Id": "277071",
+				"SyncToken": "4",
+				"MetaData": {
+					"CreateTime": "2021-12-09T07:27:55-08:00",
+					"LastModifiedByRef": {
+						"value": "1442166940"
+					},
+					"LastUpdatedTime": "2021-12-09T07:39:52-08:00"
+				},
+				"CustomField": [
+					{
+						"DefinitionId": "1",
+						"Name": "Phone",
+						"Type": "StringType",
+						"StringValue": "812-249-8673"
+					},
+					{
+						"DefinitionId": "2",
+						"Name": "Sales Rep",
+						"Type": "StringType",
+						"StringValue": "MIKE"
+					},
+					{
+						"DefinitionId": "3",
+						"Name": "Email",
+						"Type": "StringType"
+					}
+				],
+				"DocNumber": "42004",
+				"TxnDate": "2021-12-09",
+				"DepartmentRef": {
+					"value": "8",
+					"name": "Mike"
+				},
+				"CurrencyRef": {
+					"value": "USD",
+					"name": "United States Dollar"
+				},
+				"LinkedTxn": [
+					{
+						"TxnId": "277085",
+						"TxnType": "Payment"
+					}
+				],
+				"Line": [
+					{
+						"Id": "1",
+						"LineNum": 1,
+						"Description": "Replacement Ripper Tooth",
+						"Amount": 48.0,
+						"DetailType": "SalesItemLineDetail",
+						"SalesItemLineDetail": {
+							"ItemRef": {
+								"value": "605",
+								"name": "632-3-0013"
+							},
+							"UnitPrice": 48,
+							"Qty": 1,
+							"ItemAccountRef": {
+								"value": "19",
+								"name": "Sales"
+							},
+							"TaxCodeRef": {
+								"value": "NON"
+							},
+							"TaxClassificationRef": {
+								"value": "EUC-99990101-V1-00020000"
+							}
+						}
+					},
+					{
+						"Id": "2",
+						"LineNum": 2,
+						"Description": "Ripper Tooth Pin",
+						"Amount": 14.0,
+						"DetailType": "SalesItemLineDetail",
+						"SalesItemLineDetail": {
+							"ItemRef": {
+								"value": "519",
+								"name": "632-3-0014"
+							},
+							"UnitPrice": 14,
+							"Qty": 1,
+							"ItemAccountRef": {
+								"value": "19",
+								"name": "Sales"
+							},
+							"TaxCodeRef": {
+								"value": "NON"
+							},
+							"TaxClassificationRef": {
+								"value": "EUC-99990101-V1-00020000"
+							}
+						}
+					},
+					{
+						"Id": "3",
+						"LineNum": 3,
+						"Description": "Shipping FedEx/UPS Ground",
+						"Amount": 25.0,
+						"DetailType": "SalesItemLineDetail",
+						"SalesItemLineDetail": {
+							"ItemRef": {
+								"value": "1502",
+								"name": "Ground*"
+							},
+							"UnitPrice": 25,
+							"Qty": 1,
+							"ItemAccountRef": {
+								"value": "19",
+								"name": "Sales"
+							},
+							"TaxCodeRef": {
+								"value": "NON"
+							},
+							"TaxClassificationRef": {
+								"value": "EUC-99990201-V1-00020000"
+							}
+						}
+					},
+					{
+						"Amount": 87.0,
+						"DetailType": "SubTotalLineDetail",
+						"SubTotalLineDetail": {}
+					}
+				],
+				"TxnTaxDetail": {
+					"TotalTax": 0
+				},
+				"CustomerRef": {
+					"value": "51917",
+					"name": "Dennis Hamilton - IN"
+				},
+				"CustomerMemo": {
+					"value": "Thank you for your business!\\n\\nFreight Policy:\\nPlease thoroughly inspect all equipment upon arrival.  Should damage be found, please notate on the delivery receipt and sign after taking pictures of the attachment while the driver is present.  If the damage is not notated the freight carrier will not consider any remedy for issues that may have occurred in transit. \\n\\n\\nReturn Policy:\\nOrder cancellations will be assessed a 5% fee. Returned items will be assessed a 20% restocking fee plus all applicable freight charges. Only new, unused equipment is eligible for returns. Used equipment may not be returned. All returns on new equipment require pre-approval and written authorization. Custom orders are non-refundable."
+				},
+				"BillAddr": {
+					"Id": "156785",
+					"Line1": "5749 S County Rd 275 W",
+					"City": "Sullivan",
+					"CountrySubDivisionCode": "IN",
+					"PostalCode": "47882"
+				},
+				"ShipAddr": {
+					"Id": "156785",
+					"Line1": "5749 S County Rd 275 W",
+					"City": "Sullivan",
+					"CountrySubDivisionCode": "IN",
+					"PostalCode": "47882"
+				},
+				"FreeFormAddress": true,
+				"SalesTermRef": {
+					"value": "6",
+					"name": "Prepaid"
+				},
+				"DueDate": "2021-12-09",
+				"ShipMethodRef": {
+					"value": "UPS GROUND",
+					"name": "UPS GROUND"
+				},
+				"TotalAmt": 87.0,
+				"ApplyTaxAfterDiscount": false,
+				"PrintStatus": "NotSet",
+				"EmailStatus": "EmailSent",
+				"BillEmail": {
+					"Address": "dennish@hepn.com"
+				},
+				"Balance": 0,
+				"DeliveryInfo": {
+					"DeliveryType": "Email",
+					"DeliveryTime": "2021-12-09T07:39:49-08:00",
+					"DeliveryErrorType": "Bounced Email"
+				},
+				"TaxExemptionRef": {
+					"value": "99"
+				}
+			}
+		],
+		"startPosition": 1,
+		"maxResults": 1,
+		"totalCount": 1
+	},
+	"time": "2022-02-15T11:11:05.781-08:00"
+}
